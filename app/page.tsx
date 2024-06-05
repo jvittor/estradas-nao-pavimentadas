@@ -11,6 +11,7 @@ export default function Home() {
     <main className="h-[calc(100vh-4rem)]">
 
       <div className="absolute top-16 bottom-0 left-0 right-0">
+        <CarScene />
       </div>
       <div className=" mt-20 max-w-screen-xl justify-between mx-auto p-2 flex flex-col space-y-5 font-black text-black text-4xl sm:text-5xl">
         <div className="z-10 inline-block px-3 bg-primary ">Estradas</div>
