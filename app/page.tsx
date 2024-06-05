@@ -9,7 +9,7 @@ import '@/styles/home.scss';
 export default function Home() {
   return (
     <main className="h-[calc(100vh-4rem)]">
-
+      <Navbar />
       <div className="absolute top-16 bottom-0 left-0 right-0">
         <CarScene />
       </div>
