@@ -39,10 +39,10 @@ export const CarScene = ({
       {camera || (
         <PerspectiveCamera
           makeDefault
-          fov={45}
+          fov={30}
           near={0.1}
           far={1000}
-          position={[40, 200, 40]}
+          position={[40, 100, 60]}
           rotation={[radians(60), 0, 0]}
         />
       )}
@@ -135,6 +135,7 @@ export const CarScene = ({
       >
         <BuildingSet />
       </Spawner>
+      
     </Canvas>
   )
 }
